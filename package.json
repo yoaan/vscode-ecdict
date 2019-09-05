@@ -1,10 +1,20 @@
 {
   "name": "vscode-ecdict",
   "displayName": "vscode-ecdict",
-  "description": "ecdict(English to Chinese) extension for vs-code",
-  "version": "0.0.1",
+  "description": "ECDICT (English to Chinese) extension for VS Code",
+  "icon": "images/icon.png",
+  "version": "0.0.2",
   "publisher": "voldikss",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/voldikss/vscode-ecdict"
+  },
+  "keywords": [
+    "translate",
+    "translation",
+    "dictionary"
+  ],
   "engines": {
     "vscode": "^1.37.0"
   },

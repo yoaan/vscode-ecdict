@@ -13,7 +13,7 @@ const ecdictData = new Map()
 export async function activate(context: vscode.ExtensionContext): Promise<void> {
   // Note: context.storagePath is undefined...
   const configDir = getConfigDir()
-  const storagePath = path.join(configDir, 'vscode-translator')
+  const storagePath = path.join(configDir, 'vscode-ecdict')
   const stat = await statAsync(storagePath)
   if (!stat || !stat.isDirectory()) {
     await mkdirAsync(storagePath)
