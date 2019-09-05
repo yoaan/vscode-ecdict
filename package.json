@@ -1,0 +1,36 @@
+{
+  "name": "vscode-ecdict",
+  "displayName": "vscode-ecdict",
+  "description": "ecdict(English to Chinese) extension for vs-code",
+  "version": "0.0.1",
+  "publisher": "voldikss",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.37.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./lib/index.js",
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "yarn run compile"
+  },
+  "devDependencies": {
+    "@voldikss/tsconfig": "^1.0.0",
+    "@voldikss/tslint-config": "^1.0.1",
+    "@types/got": "^9.6.7",
+    "got": "^9.6.0",
+    "@types/node": "^10.12.21",
+    "@types/vscode": "^1.37.0",
+    "typescript": "^3.3.1",
+    "tslint": "^5.12.1",
+    "vscode-test": "^1.0.2",
+    "ts-loader": "^6.0.4"
+  }
+}
