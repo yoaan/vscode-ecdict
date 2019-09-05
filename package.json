@@ -3,7 +3,7 @@
   "displayName": "vscode-ecdict",
   "description": "ECDICT (English to Chinese) extension for VS Code",
   "icon": "images/icon.png",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "voldikss",
   "license": "MIT",
   "repository": {
@@ -42,5 +42,8 @@
     "tslint": "^5.12.1",
     "vscode-test": "^1.0.2",
     "ts-loader": "^6.0.4"
+  },
+  "dependencies": {
+    "got": "^9.6.0"
   }
 }
