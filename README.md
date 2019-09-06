@@ -1,6 +1,6 @@
 # vscode-ecdict
 
-ECDICT extension for coc.nvim, fork of [coc-ecdict](https://github.com/fannheyward/coc-ecdict)
+[ECDICT](https://github.com/skywind3000/ECDICT) extension for coc.nvim, fork of [coc-ecdict](https://github.com/fannheyward/coc-ecdict)
 
 ## Usage
 
